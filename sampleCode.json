@@ -1,0 +1,91 @@
+{
+  "envelope": {
+    "version": {
+      "major": "1"
+    },
+    "submitter": [{
+      "primaryId": "BMW AG"
+    }]
+  },
+  "dataMessage": [{
+    "eventGroup": [{
+      "localizationCategory": {
+        "vehiclePositionAndOrientation": [{
+          "positionAndAccuracy": {
+            "geographicWgs84": {
+              "longitude": {
+                "value": "-404497000"
+              },
+              "latitude": {
+                "value": "5577387200"
+              }
+            }
+          },
+          "orientationAndAccuracy": {
+            "eulerVehicle": {
+              "yaw": {
+                "value": "21515"
+              }
+            }
+          }
+        }, {
+          "envelope": {
+            "timestamp": {
+              "posixTime": "1617092099517"
+            }
+          },
+          "positionAndAccuracy": {
+            "geographicWgs84": {
+              "longitude": {
+                "value": "-404504300"
+              },
+              "latitude": {
+                "value": "5577381900"
+              }
+            }
+          },
+          "orientationAndAccuracy": {
+            "eulerVehicle": {
+              "yaw": {
+                "value": "21515"
+              }
+            }
+          }
+        }, {
+          "positionAndAccuracy": {
+            "geographicWgs84": {
+              "longitude": {
+                "value": "-404511300"
+              },
+              "latitude": {
+                "value": "5577376500"
+              }
+            }
+          },
+          "orientationAndAccuracy": {
+            "eulerVehicle": {
+              "yaw": {
+                "value": "21515"
+              }
+            }
+          }
+        }]
+      },
+      "weatherCategory": {
+        "visibilityCondition": [{
+          "envelope": {
+            "timestamp": {
+              "posixTime": "1617092100000"
+            },
+            "detectionType": {
+              "type": "READING_FUSION"
+            }
+          },
+          "typeAndConfidence": {
+            "type": "LOW_FOG"
+          }
+        }]
+      }
+    }]
+  }]
+}
