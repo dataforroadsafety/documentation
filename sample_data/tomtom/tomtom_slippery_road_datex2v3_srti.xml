@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:messageContainer xmlns:ns6="http://datex2.eu/schema/3/situation"
+    xmlns:ns5="http://datex2.eu/schema/3/extension"
+    xmlns:ns4="http://datex2.eu/schema/3/locationReferencing"
+    xmlns:ns3="http://datex2.eu/schema/3/exchangeInformation"
+    xmlns:ns2="http://datex2.eu/schema/3/messageContainer"
+    xmlns="http://datex2.eu/schema/3/common" modelBaseVersion="3" profileName="SRTI" profileVersion="00-02-00">
+    <ns2:payload xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns6:SituationPublication" lang="en" modelBaseVersion="3">
+        <publicationTime>2022-06-20T06:45:10Z</publicationTime>
+        <publicationCreator>
+            <country>nl</country>
+            <nationalIdentifier>df48afab-2e88-43be-aed1-38c8f95f96dd</nationalIdentifier>
+        </publicationCreator>
+        <ns6:situation id="TTI-df48afab-2e88-43be-aed1-38c8f95f96dd-TTR37833707680019002">
+            <ns6:headerInformation>
+                <informationStatus>real</informationStatus>
+            </ns6:headerInformation>
+            <ns6:situationRecord xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns6:WeatherRelatedRoadConditions" id="TTI-df48afab-2e88-43be-aed1-38c8f95f96dd-TTR37833707680019002-1" version="1">
+                <ns6:situationRecordCreationTime>2022-05-23T09:12:59Z</ns6:situationRecordCreationTime>
+                <ns6:situationRecordVersionTime>2022-06-20T06:45:10Z</ns6:situationRecordVersionTime>
+                <ns6:probabilityOfOccurrence>certain</ns6:probabilityOfOccurrence>
+                <ns6:safetyRelatedMessage>true</ns6:safetyRelatedMessage>
+                <ns6:validity>
+                    <validityStatus>active</validityStatus>
+                    <validityTimeSpecification>
+                        <overallStartTime>2022-05-23T09:12:59Z</overallStartTime>
+                    </validityTimeSpecification>
+                </ns6:validity>
+                <ns6:locationReference xsi:type="ns4:SingleRoadLinearLocation">
+                    <ns4:gmlLineString srsName="EPSG:4326">
+                        <ns4:posList>13.466 52.497 13.468 52.5</ns4:posList>
+                    </ns4:gmlLineString>
+                    <ns4:_linearLocationExtension>
+                        <ns4:linearLocationExtended>
+                            <ns5:openLrLinearAsBinary>CwmTbyVUxBtjBgDjARYbMY0=</ns5:openLrLinearAsBinary>
+                        </ns4:linearLocationExtended>
+                    </ns4:_linearLocationExtension>
+                </ns6:locationReference>
+                <ns6:weatherRelatedRoadConditionType>slippery</ns6:weatherRelatedRoadConditionType>
+            </ns6:situationRecord>
+        </ns6:situation>
+    </ns2:payload>
+</ns2:messageContainer>
